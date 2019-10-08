@@ -3,7 +3,7 @@
 # Setup React-Native-Cli
 Source: https://facebook.github.io/react-native/docs/getting-started
 
-```
+``` javascript
 brew install yarn
 brew install node
 brew install watchman
@@ -15,11 +15,13 @@ sudo gem install cocoapods
 > All above must be resolved for react-native to work.
 
 # Creating a new App
-- react-native init PROJECT_NAME
-- cd into PROJECT_NAME
-- react-native run-ios
+```
+react-native init PROJECT_NAME
+cd into PROJECT_NAME
+react-native run-ios
+```
 
-> If iPhone X emulator is not detected, force simulator with `--simulator "iPhone 11 Pro"` flag or edit npm scripts in `package.json`. 
+> If iPhone X emulator is not detected, force simulator with `--simulator "iPhone 11 Pro"` flag or edit npm scripts in `package.json`.
 
 > ``` "ios": "react-native run-ios --simulator 'iPhone 11 Pro'" ```
 
